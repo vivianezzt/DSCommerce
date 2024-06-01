@@ -73,14 +73,29 @@ no sistema (client, admin).
 |Manter categorias    |CRUD de categorias, podendo filtrar itens pelo nome   |Somente Admin  |
 |Manter usuários      |CRUD de usuários, podendo filtrar itens pelo nome     |Somente Admin  |
 |Gerenciar caminhos   |Incluir e remover itens do carrinho de compras, bem   |Somente Admin  |
-|--------------------- como alterar as quantidades do produto em cada item   |               |
-|Consultar catálogo    |Listar produtos disponíveis, podendo filtrar produtos|Público        |
-|                      | pelo nome                                           |               |
-| Sign Up              |Cadastrar-se no sistema                              |Público        |
-| Login                |Efetuar login no sistema                             |Público        |
-| Registrar Pedidos    |Salvar no sistema um pedido a partir dos dados do    |               |
-|                      | carrinho de compras informado                       |PUsuário logado|
-| Atualizar Perfil     |Visualizar os pedidos que o próprio usuário já fez   |Público        |
-| Registrar Pagamentos |Salvar no sistema os dados do pagamento de um        |               |
-|                      | pedido                                              |Público        |
-| Reportar pedidos     |Relatório de pedidos, podendo ser filtrados por data |Público        |
+|                      como alterar as quantidades do produto em cada item                
+|Consultar catálogo   |Listar produtos disponíveis, podendo filtrar produtos |Público        |
+|                     | pelo nome                                            |               |
+| Sign Up             |Cadastrar-se no sistema                               |Público        |
+| Login               |Efetuar login no sistema                              |Público        |
+| Registrar Pedidos   |Salvar no sistema um pedido a partir dos dados do     |               |
+|                     | carrinho de compras informado                        |PUsuário logado|
+| Atualizar Perfil    |Visualizar os pedidos que o próprio usuário já fez    |Público        |
+| Registrar Pagamentos|Salvar no sistema os dados do pagamento de um         |               |
+|                     | pedido                                               |Público        |
+| Reportar pedidos    |Relatório de pedidos, podendo ser filtrados por data  |Público        |
+
+### Atores 
+
+<img src="./img/atores.png"/>
+
+| Atores         | Responsabilidades                                            |      
+|----------------|--------------------------------------------------------------|
+|Usuário anônimo |Pode realizar casos de uso das áreas públicas do sistema, como|
+|                |catálogo, carrinho de compras, login e sign up.               |
+|Cliente         |Responsável por manter seu próprios dados pessoais no sistema,|
+|                |e pode visualizar histórico dos seus pedidos. Todo usuário    |
+|                |cadastrado por padrão é um Cliente.                           |
+|Admin           |Responsável por acessar a área administrativa do sistema com  |
+|                |cadastros e relatórios. Admin também pode fazer tudo que      |
+|                |Cliente faz.                                                  | 
