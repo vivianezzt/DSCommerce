@@ -19,12 +19,15 @@ Nesse projeto vamos aprender a:
 Deseja-se fazer um sistema para ser utilizado em cursos da Devsuperior no processo de
 aprendizado dos alunos. Para isto, a concepção do sistema partiu das seguintes
 premissas:
- Deve ser um sistema que possua um modelo de domínio relativamente simples,
+
+1. Deve ser um sistema que possua um modelo de domínio relativamente simples,
 porém abrangente, ou seja, que explore vários tipos de relacionamentos entre as
 entidades de negócio (muitos-para-um, muitos-para-muitos, etc.).
- O sistema deve possibilitar a aplicação de vários conhecimentos importantes das
+
+2. O sistema deve possibilitar a aplicação de vários conhecimentos importantes das
 disciplinas de fundamentos.
- O sistema deve conter as principais funcionalidades que se espera de um
+
+3. O sistema deve conter as principais funcionalidades que se espera de um
 profissional iniciante deve saber construir, tais como telas de cadastro e fluxos de
 caso de uso.
 
@@ -89,13 +92,13 @@ no sistema (client, admin).
 
 <img src="./img/atores.png"/>
 
-| Atores         | Responsabilidades                                            |      
-|----------------|--------------------------------------------------------------|
-|Usuário anônimo |Pode realizar casos de uso das áreas públicas do sistema, como|
-|                |catálogo, carrinho de compras, login e sign up.               |
-|Cliente         |Responsável por manter seu próprios dados pessoais no sistema,|
-|                |e pode visualizar histórico dos seus pedidos. Todo usuário    |
-|                |cadastrado por padrão é um Cliente.                           |
-|Admin           |Responsável por acessar a área administrativa do sistema com  |
-|                |cadastros e relatórios. Admin também pode fazer tudo que      |
-|                |Cliente faz.                                                  | 
+| Atores         | Responsabilidades                                                         |      
+|----------------|---------------------------------------------------------------------------|
+|Usuário anônimo |Pode realizar casos de uso das áreas públicas do sistema, como catálogo,   |
+|                |carrinho de compras, login e sign up.                                      |
+|Cliente         |Responsável por manter seu próprios dados pessoais no sistema,e pode       |
+|                |visualizar histórico dos seus pedidos. Todo usuário cadastrado por padrão  | 
+|                |é um Cliente.                                                              |
+|Admin           |Responsável por acessar a área administrativa do sistema com cadastros e   | 
+|                |relatórios. Admin também pode fazer tudo que                               |
+|                |Cliente faz.                                                               | 
